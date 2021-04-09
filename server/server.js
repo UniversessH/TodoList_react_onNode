@@ -3,7 +3,7 @@ const express = require("express") //引入Express
 const app = express() //设置app作为Express实例
 const MongoClient = require('mongodb').MongoClient //引入MongoDB服务
 const { Cursor } = require("mongodb")//这是啥？
-const url = "mongodb://owner:hjc030121@81.68.216.32:27017/Todolist_react"
+const url = "mongodb://owner:密码不给你看@81.68.IP不给你看:端口不给你看/Todolist_react"
 
 MongoClient.connect(url, {
   useUnifiedTopology: true //必加，去除警告
